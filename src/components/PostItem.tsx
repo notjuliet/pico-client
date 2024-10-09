@@ -37,7 +37,7 @@ const PostItem: Component<PostItemProps> = (props: PostItemProps) => {
   return (
     <div
       classList={{
-        "flex flex-col items-start gap-x-3 text-sm py-1.5": true,
+        "flex flex-col items-start gap-x-3 text-sm 4xl:text-base py-1.5": true,
         "mt-[-0.75rem]": props.isSamePoster,
         "border-t border-zinc-700":
           !props.isSamePoster && configs().lineSeparator,
